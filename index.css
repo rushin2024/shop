@@ -5,6 +5,7 @@
 
 table {
    margin: auto;
+   width: 467px;
 }
 
 td{
@@ -17,4 +18,8 @@ td{
    background-color:dodgerblue;
    font-weight: bold;
    padding: 20px;
+}
+
+.fresheners-cat{
+   display: none;
 }
