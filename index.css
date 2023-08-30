@@ -1,0 +1,20 @@
+*{
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+   margin: auto;
+}
+
+td{
+   border: 1px solid black;
+   padding: 10px;
+   text-align: center;
+}
+
+.category{
+   background-color:dodgerblue;
+   font-weight: bold;
+   padding: 20px;
+}
