@@ -6,95 +6,18 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Shop</title>
 
-   <link rel="stylesheet" href="./index.css">
+   <link rel="stylesheet" href="./index_prod.css">
 </head>
 <body>
-   <table>
-      <thead>
-         <tr>
-            <td><strong>Product</strong></td>
-            <td><strong>Amount</strong></td>
-            <td><strong>C . O . D</strong></td>
-            <td><strong>Month End</strong></td>
-         </tr>
-      </thead>
-      <tbody>
-         <!-- Fresheners -->
-         <tr><td colspan="4" class="category" id="fresheners-cat">Fresheners (Tap/Click To View)</td></tr>
-
-         <tr class="fresheners-cat">
-            <td>Odorex - Spray</td>
-            <td>500ml</td>
-            <td>R60.00</td>
-            <td>R70.00</td>
-         </tr>
-
-         <tr class="fresheners-cat">
-            <td>Odorex - Refill</td>
-            <td>500ml</td>
-            <td>R50.00</td>
-            <td>R60.00</td>
-         </tr>
-
-         <tr class="fresheners-cat">
-            <td colspan="4" style="border:none;">&nbsp;</td>
-         </tr>
-
-         <tr class="fresheners-cat">
-            <td>Toilet Fresh - Powder</td>
-            <td>500g</td>
-            <td>R50.00</td>
-            <td>R60.00</td>
-         </tr>
-
-         <tr class="fresheners-cat">
-            <td>Toilet Fresh - Spray</td>
-            <td>250ml</td>
-            <td>R55.00</td>
-            <td>R65.00</td>
-         </tr>
-
-         <tr class="fresheners-cat">
-            <td colspan="4" style="border:none;">&nbsp;</td>
-         </tr>
-
-         <tr class="fresheners-cat">
-            <td>Carpet Fresh - Powder</td>
-            <td>500g</td>
-            <td>R50.00</td>
-            <td>R60.00</td>
-         </tr>
-
-         <tr class="fresheners-cat">
-            <td colspan="4" style="border:none;">&nbsp;</td>
-         </tr>
-
-         <tr class="fresheners-cat">
-            <td>Room Fresh - Spray</td>
-            <td>250ml</td>
-            <td>R55.00</td>
-            <td>R65.00</td>
-         </tr>
-
-         <tr class="fresheners-cat">
-            <td colspan="4" style="border:none;">&nbsp;</td>
-         </tr>
-
-         <tr class="fresheners-cat">
-            <td>Fresh Air Blocks</td>
-            <td>Each</td>
-            <td>R35.00</td>
-            <td>R45.00</td>
-         </tr>
-
-         <!-- Fresheners -->
-         <tr><td colspan="4" class="category" id="disinfectants-cat">Disinfectants (Tap/Click To View)</td></tr>
-      </tbody>
-   </table>
-   <script
-  src="https://code.jquery.com/jquery-3.7.1.min.js"
-  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
-  crossorigin="anonymous"></script>
-   <script src="./index.js"></script>
+   <div class="bg-white">
+      <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+         <div class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8" id="products-container">
+         </div>
+      </div>
+   </div>
+   <script src="./index.js" type="application/javascript"></script>
 </body>
 </html>
+
+<!-- Add "Add To Cart '+'" btn on bottom right of group element -->
+<!-- Add feature to send order via WhatsApp using WhatsApp API -->
