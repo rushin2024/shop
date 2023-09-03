@@ -26,7 +26,25 @@ const products = {
    43:{id:43,name:"Toilet Bowl Cleaner",size:"750ml",img_src:"./images/043_Toilet_Bowl_Cleaner_750ml.jpg",price_cod:"R45.00",price_me:"R55.00",cat:"toilet_bathroom",description:"Sanitol Toilet Bowl Cleaner is an acid cleaner. It removes lime scale and stains from the toilet bowl. It is non-abrasive and will not scour the porcelain or ceramics."},
    46:{id:46,name:"Urinal Tabs",size:"500g",img_src:"./images/046_Urinal_Tabs_500g.jpg",price_cod:"R85.00",price_me:"R95.00",cat:"toilet_bathroom",description:"Perfumed crystals for use primarily in urinals as a deodoriser."},
    47:{id:47,name:"Urinal Tabs",size:"4kg",img_src:"./images/047_Urinal_Tabs_4kg.jpg",price_cod:"R425.00",price_me:"R435.00",cat:"toilet_bathroom",description:"Perfumed crystals for use primarily in urinals as a deodoriser."},
-   // "":{id:,name:"",size:"",img_src:"./images/.jpg",price_cod:"R55.00",price_mo:"R65.00",cat:"",description:""},
+   49:{id:49,name:"Floorbrite Liquid Floor Polish",size:"750ml",img_src:"./images/049_Floorbrite_Liquid_Floor_Polish_750ml.jpg",price_cod:"R65.00",price_me:"R75.00",cat:"floors_tiles_and_carpets",description:"A dry to shine floor polish. Just pour on and spread evenly, no buffing required. Can be used on all floor types except unsealed wood and cork."},
+   52:{id:52,name:"Stride Heavy Duty Floor Cleaner",size:"750ml",img_src:"./images/052_Stride_Heavy_Duty_Floor_Cleaner_750ml.jpg",price_cod:"R55.00",price_me:"R65.00",cat:"floors_tiles_and_carpets",description:""},
+   55:{id:55,name:"Tilex Floor Tile Cleaner",size:"750ml",img_src:"./images/055_Tilex_Floor_Tile_Cleaner_750ml.jpg",price_cod:"R50.00",price_me:"R60.00",cat:"floors_tiles_and_carpets",description:"A floor and wall tile cleaner for ceramic and linoleum tiles that does not leave a sticky residue. Can also be used on terracotta, marble and sealed wood."},
+   57:{id:57,name:"Laminated Wood Floor Cleaner",size:"750ml",img_src:"./images/057_Laminated_Wood_Floor_Cleaner_750ml.jpg",price_cod:"R55.00",price_me:"R65.00",cat:"general_household",description:""},
+   58:{id:58,name:"Metal Polish",size:"250ml",img_src:"./images/058_Metal_Polish_250ml.jpg",price_cod:"R65.00",price_me:"R75.00",cat:"general_household",description:""},
+   59:{id:59,name:"Furniture Oil",size:"500ml",img_src:"./images/059_Furniture_Oil_500ml.jpg",price_cod:"R95.00",price_me:"R105.00",cat:"general_household",description:""},
+   61:{id:61,name:"Window Cleaner Spray",size:"750ml",img_src:"./images/061_Window_Cleaner_Spray_750ml.jpg",price_cod:"R55.00",price_me:"R655.00",cat:"general_household",description:"Cleans dirt and dust with ease, leaving your windows and glass surfaces sparkling. Can also be used on windscreens, mirrors, tiles, taps, fridges, washing machines and enamel surfaces."},
+   64:{id:64,name:"Antibacterial Hand Wash",size:"250ml",img_src:"./images/064_Antibacterial_Hand_Wash_250ml.jpg",price_cod:"R50.00",price_me:"R60.00",cat:"hand_care",description:""},
+   66:{id:64,name:"Hand Gel Sanitizer",size:"250ml",img_src:"./images/066_Hand_Sanitizer_Gel_250ml.jpg",price_cod:"R55.00",price_me:"R65.00",cat:"hand_care",description:""},   
+   71:{id:71,name:"Household Bleach",size:"2L",img_src:"./images/071_Household_Bleach_2L.jpg",price_cod:"R45.00",price_me:"R55.00",cat:"laundry_clothing_care",description:"Bleach brightens and whitens fabrics and help remove stubborn stains. It cleans as well as whiten."},
+   72:{id:72,name:"Household Bleach",size:"5L",img_src:"./images/072_Household_Bleach_5L.jpg",price_cod:"R65.00",price_me:"R75.00",cat:"laundry_clothing_care",description:"Bleach brightens and whitens fabrics and help remove stubborn stains. It cleans as well as whiten."},
+   77:{id:77,name:"Low Foam Washing Powder",size:"2kg",img_src:"./images/077_Low_Foam_Washing_Powder_2kg.jpg",price_cod:"R100.00",price_me:"R110.00",cat:"laundry_clothing_care",description:"For a clean and extra soft machine wash."},
+   79:{id:79,name:"Fabric Soft",size:"2L",img_src:"./images/079_Fabric_Soft_2L.jpg",price_cod:"R55.00",price_me:"R65.00",cat:"laundry_clothing_care",description:"Fabric Soft is a conditioner used to make fabric softer and prevent static cling. For use in machine and hand wash."},
+   85:{id:85,name:"Car Polish",size:"500ml",img_src:"./images/085_Car_Polish_500ml.jpg",price_cod:"R65.00",price_me:"R75.00",cat:"car_care",description:"With German Wax for extra protection leaving your car with a high gloss finish which also protects against rain, salt and sun damage."},
+   87:{id:87,name:"Car Shampoo",size:"750ml",img_src:"./images/087_Car_Shampoo_750ml.jpg",price_cod:"R50.00",price_me:"R60.00",cat:"car_care",description:"A concentrated formulation for superior cleaning of dirt and grime. pH balanced, contains no salt, is safe for all paint finishes and will not strip away the protective car wax."},
+   89:{id:89,name:"Dashboard Shine",size:"500ml",img_src:"./images/089_Dashboard_Shine_500ml.jpg",price_cod:"R55.00",price_me:"R65.00",cat:"car_care",description:"Cleans and shines dashboards, interior trim, leather and leatherette easily with silicone for extra shine."},
+   91:{id:91,name:"Tire Brite",size:"500ml",img_src:"./images/091_Tire_Brite_500ml.jpg",price_cod:"R55.00",price_me:"R65.00",cat:"car_care",description:"Shines tyres and exterior black trim. Simply apply with a cloth."},
+   93:{id:93,name:"MotoWax",size:"500ml",img_src:"./images/093_MotoWax_500ml.jpg",price_cod:"R60.00",price_me:"R70.00",cat:"car_care",description:"Motex Motowax makes cleaning easier, simply spray on and wipe to shine, no water needed. Removes dirt, grease and grime and produces an instant high gloss finish which protects your car against rain, salt and sun damage."},
+   // :{id:,name:"",size:"",img_src:"./images/.jpg",price_cod:"R55.00",price_me:"R65.00",cat:"",description:""},
 };
 
 let products_container = document.getElementById("products-container");
@@ -43,7 +61,7 @@ for (let value in products){
          `</div>`+
          `<h3 class='mt-4 text-base font-medium'>${product.name}</h3>`+
          `<h3 class='mt-1 text-base text-gray-700'>${product.size}</h3>`+
-         `<div class="bg-white px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6">`+
+         `<div class="bg-white py-3 sm:flex sm:flex-row-reverse">`+
          `<button type="button" class="inline-flex w-full justify-center rounded-md bg-blue-600 px-3 py-3 text-sm font-semibold text-white shadow-sm sm:ml-3 sm:w-auto" onclick="show_modal(${product.id})">View Product</button>`+
          `</div>`+
          `</div>`;
@@ -57,7 +75,7 @@ for (let value in products){
          `</div>`+
          `<h3 class='mt-4 text-base font-medium'>${product.name}</h3>`+
          `<h3 class='mt-1 text-base text-gray-700'>${product.size}</h3>`+
-         `<div class="bg-white px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6">`+
+         `<div class="bg-white py-3 sm:flex sm:flex-row-reverse">`+
          `<button type="button" class="inline-flex w-full justify-center rounded-md bg-blue-600 px-3 py-3 text-sm font-semibold text-white shadow-sm sm:ml-3 sm:w-auto" onclick="show_modal(${product.id})">View Product</button>`+
          `</div>`+
          `</div>`;
