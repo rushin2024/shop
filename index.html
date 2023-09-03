@@ -9,14 +9,17 @@
    <link rel="stylesheet" href="./index_prod.css">
 </head>
 <body>
+   <div class="fixed w-full text-center bg-red-600 text-white p-3 z-10 text-base">
+      <h3>Message Us On WhatsApp @ <span class="font-bold">0733665515</span> To Place Your Order</h3>
+   </div>
    <div class="bg-white">
       <div class="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
          <div class="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8" id="products-container">
          </div>
       </div>
 
-      <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity hidden" id="modal--bg"></div>
-         <div class="fixed inset-0 z-10 overflow-y-auto modal hidden" id="modal">
+      <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity hidden z-20" id="modal--bg"></div>
+         <div class="fixed inset-0 z-10 overflow-y-auto modal hidden z-30" id="modal">
             <div class="flex min-h-full items-center justify-center p-4 text-center sm:items-center sm:p-0">
                <div class="relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg">
                   <div class="bg-white px-4 pb-4 pt-5 sm:p-6 sm:pb-4">
@@ -31,6 +34,7 @@
                               <p class="text-base text-gray-900"><span class="font-bold">Size: </span><span id="product--size"></span></p>
                               <p class="text-base my-1"><span class="font-bold">Cash On Delivery: </span><span id="product--cod"></span></p>
                               <p class="text-base my-1"><span class="font-bold">Month End: </span><span id="product--me"></span></p>
+                              <p class="text-base font-bold mt-4 text-red-800">Free Delivery With Every Order Placed</p>
                            </div>
                         </div>
                      </div>
